@@ -1,0 +1,36 @@
+body{
+    background-color: #1d5f63;
+}
+.form-box{
+    background-color: #FFE7CD;
+    text-align: center;
+    height: 380px;
+    width: 340px;
+    margin: 200px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 2px
+}
+form{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+}
+input{
+    padding: 10px 20px;
+    margin: 3px 0px;
+    border-radius: 10px;
+}
+button{
+    background-color: #5ebabeda;
+    font-size: 16px;
+    border:1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 27px;
+    margin: 12px 0px;
+    font-family: 'DM Serif Display', serif;
+}
+

@@ -1,0 +1,247 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 30px;
+    background-color: #FFE7CD;
+    background-size: 20%;
+}
+.head img{
+    float:left;
+    padding-left:20px;
+    width:400px;
+    height:500px;
+    margin: 0px 20px;
+    padding: 20px;
+    border: 1px solid #FFE7CD;
+    border-radius: 10px;
+}
+.card{
+    border-radius: 40px;
+    background-color: #1d5f63;
+}
+.judul{
+    text-align: center;
+    color: #FFE7CD;
+    font-family: 'DM Serif Display', serif;
+}
+.judul h1{
+    position: relative;
+    top: 30px;
+    font-size: 50px;
+}
+.content{
+    padding: 30px 50px;
+    text-indent: 45px;
+    line-height: 30px;
+    font-size: 25px; 
+    font-family:Serif;
+    Color:black;
+    text-align: justify;
+    background-color: #294445;
+    color: #EBF4F5;
+    
+}
+table{
+    text-indent: 45px;
+    line-height: 30px;
+    font-size: 25px;
+    border-radius: 5px;  
+    color: #EBF4F5;
+}
+
+.myname{
+    vertical-align: middle;
+    line-height: 20px;
+    margin-top: 200px;
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+}
+.myname a{
+    text-decoration: none;
+    color: #FFE7CD;
+    text-decoration: underline;
+}
+.head{
+    padding: 50px 0px;
+    padding-bottom: 150px;
+}
+.icon ol{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.icon ol li{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+    background-color:wheat;
+    display: block;
+
+}
+.icon ol li img{
+    width: 100px;
+    height: 100px;
+}
+#pic2{
+    float: right;
+    padding-left:20px;
+    width:400px;
+    height:500px;
+    margin: 20px 20px;
+    padding: 20px;
+    border: 1px solid #FFE7CD;
+    border-radius: 10px;
+}
+#pic3{
+    float: left;
+    padding-left:20px;
+    width:400px;
+    height:500px;
+    margin: 0px 20px;
+    padding: 20px;
+    border: 1px solid #FFE7CD;
+    border-radius: 10px;
+}
+.about{
+margin: 80px 0px;
+}
+.about h2{
+    font-family: 'DM Serif Display', serif;
+}
+.isi{
+    position: relative;
+    border: 1px solid #294445;
+    text-align: center;
+    background-color:#FFE7CD ;
+    width: 50%;
+    top: 32px;
+    margin: 80px auto;
+    border-radius: 7px;
+}
+.isi input{
+    width:250px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.isi h3{
+    font-family: 'DM Serif Display', serif;
+    color: #1d5f63;
+}
+.isi textarea{
+margin: 10px;
+padding: 8px;
+width: 500px;
+height: 100px;
+border-radius: 5px;
+}
+.isi button{
+    left: 18px;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #1d5f63;
+    border-radius: 10px;
+    color: #FFE7CD;
+}
+.logout{
+    position: absolute;
+    border-radius: 10px;
+    width: 70px;
+    font-family: 'DM Serif Display', serif;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #FFE7CD;
+    color: #1d5f63;
+    right: 25px;
+}
+.logout a{
+    text-decoration: none;
+    color: green;
+    width: 70px;
+}
+.header{
+    background-color:#1d5f63;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.header ul li{
+    border: 1px solid #FFE7CD;
+    margin: 0px 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.header ul{
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+}
+.header ul li:hover{
+    background-color: #FFE7CD;
+    color: #1d5f63;
+    box-shadow:2px 2px 5px 2px black;
+}
+.header a{
+    color: #FFE7CD;
+    text-decoration: none;
+}
+.komentar{
+    text-align: center;
+    margin-top: 50px;
+}
+.komentar h2{
+    margin-bottom: 70px;
+}
+.komentar h4{
+    position: relative;
+    margin: 20px 0px;
+    bottom: -7px;
+    font-family: 'DM Serif Display', serif;
+}
+  .action{
+    padding: 5px;
+    text-align: center;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+.ubah{
+    text-align: center;
+    padding-right: 40px; 
+    margin: 0px 20px;
+    background-color: #FFE7CD ;
+    color:#1d5f63;
+    border-radius: 7px;
+}
+.delete{
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: rgb(181, 58, 58);
+    border-radius: 7px;
+    width: 80px;
+    text-align: center;
+    padding-right: 60px;
+
+}
+.action a{
+    text-decoration: none;
+}
+.delete:hover{
+    background-color: rgb(237, 70, 70);
+}
+.ubah:hover{
+    background-color: #c2c2c2;
+}
+
